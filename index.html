@@ -271,7 +271,7 @@ html,body{height:100%;background:#eef2f7;font-family:-apple-system,BlinkMacSyste
     <div class="cdown">
       <h3>⏰ Next rewarded ad ready in</h3>
       <div class="cdown-val" id="cdown-val">00:00</div>
-      <p>1 ad = 10 points &nbsp;|&nbsp; 2000 pts = 0.1 USDT</p>
+      <p>1 ad = 5 points &nbsp;|&nbsp; 2000 pts = 1 USDT</p>
     </div>
 
     <div class="card">
@@ -288,25 +288,25 @@ html,body{height:100%;background:#eef2f7;font-family:-apple-system,BlinkMacSyste
         <div class="icon">&#128279;</div>
         <h4>Click Link</h4>
         <p>Visit &amp; wait 10s</p>
-        <div class="pts">+20 pts</div>
+        <div class="pts">+5 pts</div>
       </div>
       <div class="mt-card">
         <div class="icon">&#127916;</div>
         <h4>Rewarded Ad</h4>
         <p>Watch full video</p>
-        <div class="pts">+20 pts</div>
+        <div class="pts">+5 pts</div>
       </div>
       <div class="mt-card">
         <div class="icon">&#128311;</div>
         <h4>Popup Ad</h4>
         <p>View &amp; close</p>
-        <div class="pts">+20 pts</div>
+        <div class="pts">+5 pts</div>
       </div>
       <div class="mt-card">
         <div class="icon">&#128242;</div>
         <h4>In-App Ad</h4>
         <p>Auto display</p>
-        <div class="pts">+20 pts</div>
+        <div class="pts">+5 pts</div>
       </div>
     </div>
 
@@ -319,11 +319,11 @@ html,body{height:100%;background:#eef2f7;font-family:-apple-system,BlinkMacSyste
 
     <div class="info-box">
       <div class="ib-icon">&#128161;</div>
-      <div><h4>Four ways to earn</h4><p>Click links, rewarded video, rewarded popup, or in-app interstitial. All pay 20 pts each.</p></div>
+      <div><h4>Four ways to earn</h4><p>Click links, rewarded video, rewarded popup, or in-app interstitial. All pay 5 pts each.</p></div>
     </div>
 
     <div class="inapp-note">
-      <strong>📲 In-App Interstitial active:</strong> Shows 2 ads per 6 min, 30s interval, 5s delay. Earn <strong>20 pts</strong> automatically per display.
+      <strong>📲 In-App Interstitial active:</strong> Shows 2 ads per 6 min, 30s interval, 5s delay. Earn <strong>5 pts</strong> automatically per display.
     </div>
 
     <!-- CLICK LINK SECTION -->
@@ -336,7 +336,7 @@ html,body{height:100%;background:#eef2f7;font-family:-apple-system,BlinkMacSyste
           <h3>Visit Link &amp; Earn Points</h3>
           <p>Click the link, wait 10 seconds, claim reward</p>
         </div>
-        <div class="cl-pts-pill">+20 pts</div>
+        <div class="cl-pts-pill">+5 pts</div>
       </div>
       <div class="cl-body">
         <div class="cl-steps">
@@ -350,7 +350,7 @@ html,body{height:100%;background:#eef2f7;font-family:-apple-system,BlinkMacSyste
           </div>
           <div class="cl-step">
             <div class="cl-step-num">3</div>
-            <p>Claim<br>20 pts</p>
+            <p>Claim<br>5 pts</p>
           </div>
         </div>
         <button class="btn-visit" id="btn-visit-link-1" onclick="visitLink(1)">
@@ -419,13 +419,13 @@ html,body{height:100%;background:#eef2f7;font-family:-apple-system,BlinkMacSyste
 
     <div class="info-box">
       <div class="ib-icon">ℹ️</div>
-      <div><h4>Withdrawal rules</h4><p>Minimum 2000 pts = 1 USDT. Rate: 2000 pts per USDT. TRC-20 network.</p></div>
+      <div><h4>Withdrawal rules</h4><p>Minimum 2000 pts = 1 USDT. Rate: 2000 pts per USDT. BEP-20 (BSC) network.</p></div>
     </div>
 
     <div class="wbox">
-      <h3>Withdraw USDT (TRC-20)</h3>
-      <p>Enter your TRC-20 wallet address and desired amount</p>
-      <div class="inp-row"><input class="inp" type="text" id="w-addr" placeholder="TRC-20 wallet address"/></div>
+      <h3>Withdraw USDT (BEP-20)</h3>
+      <p>Enter your BEP-20 (BSC) wallet address and desired amount</p>
+      <div class="inp-row"><input class="inp" type="text" id="w-addr" placeholder="BEP-20 (BSC) wallet address"/></div>
       <div class="inp-row">
         <input class="inp" type="number" id="w-amt" placeholder="Amount (USDT)" min="1" step="0.5"/>
         <button class="btn-g" onclick="doWithdraw()">Withdraw</button>
@@ -455,9 +455,9 @@ html,body{height:100%;background:#eef2f7;font-family:-apple-system,BlinkMacSyste
     <span class="ov-emoji" id="ov-emoji">📱</span>
     <div class="ov-title" id="ov-title">Ad Title</div>
     <p class="ov-desc" id="ov-desc">Watch to earn points</p>
-    <div class="ov-pts-box"><span>+20 pts</span><p>Earned after watching</p></div>
+    <div class="ov-pts-box"><span>+5 pts</span><p>Earned after watching</p></div>
     <div class="ov-timer" id="ov-timer">5</div>
-    <button class="btn-claim" id="btn-claim" onclick="claimAd()">✓ Claim 20 Points</button>
+    <button class="btn-claim" id="btn-claim" onclick="claimAd()">✓ Claim 5 Points</button>
   </div>
 </div>
 
@@ -470,7 +470,7 @@ html,body{height:100%;background:#eef2f7;font-family:-apple-system,BlinkMacSyste
     <div class="lo-title" id="lo-title">Visit &amp; Earn</div>
     <p class="lo-desc" id="lo-desc">Stay on the page for 10 seconds then come back to claim your points!</p>
     <div class="lo-pts-box">
-      <span>+20 pts</span>
+      <span>+5 pts</span>
       <p>Reward after 10 seconds</p>
     </div>
     <div class="lo-steps">
@@ -487,7 +487,7 @@ html,body{height:100%;background:#eef2f7;font-family:-apple-system,BlinkMacSyste
     </div>
     <div class="lo-waiting-txt" id="lo-waiting-txt">Link opened — waiting for you to return...</div>
     <button class="btn-lo-claim" id="btn-lo-claim" onclick="claimLinkReward()">
-      &#10003; Claim 20 Points
+      &#10003; Claim 5 Points
     </button>
   </div>
 </div>
@@ -561,7 +561,7 @@ function startInAppRewardPoller() {
     inAppTimer++;
     // Award at 5s (first ad) + 35s (second ad) within 360s capping window
     if (inAppTimer === 5 || inAppTimer === 35) {
-      awardPoints(20, 'In-App Ad', 'inapp');
+      awardPoints(POINTS_PER_AD, 'In-App Ad', 'inapp');
     }
     if (inAppTimer >= 360) inAppTimer = 0; // reset after capping window
   }, 1000);
@@ -586,10 +586,10 @@ const STATE = {
   currentAdCb: null,
 };
 
-const POINTS_PER_AD  = 20;
+const POINTS_PER_AD  = 5;
 const POINTS_PER_REF = 20;  // ← Updated to 20
 const USDT_RATE      = 2000;
-const MIN_WITHDRAW   = 2000;
+const MIN_WITHDRAW   = 2000; // 1 USDT at 2000 pts/USDT
 
 const ADS_REWARDED = [
   { id: 1, emoji: '🛒', bg: '#e8f4fd', title: 'Shop & Save 50%',      desc: 'Flash deals on electronics — limited time!', sponsor: 'ShopNow' },
@@ -691,7 +691,7 @@ function adCard(ad, type) {
     <div class="ad-img" style="background:${ad.bg}">
       <span style="font-size:58px">${ad.emoji}</span>
       <div class="ad-badge-time">⏱ 5s</div>
-      <div class="ad-badge-pts">+20 pts</div>
+      <div class="ad-badge-pts">+${POINTS_PER_AD} pts</div>
     </div>
     <div class="ad-body">
       <h3>${ad.title} ${typeLabel}</h3>
@@ -701,7 +701,7 @@ function adCard(ad, type) {
           <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
           Watch Ad
         </button>
-        <span class="earn-lbl">⭐ +20 pts</span>
+        <span class="earn-lbl">⭐ +${POINTS_PER_AD} pts</span>
       </div>
     </div>
   </div>`;
@@ -830,7 +830,7 @@ function doWithdraw() {
   const addr   = document.getElementById('w-addr').value.trim();
   const amount = parseFloat(document.getElementById('w-amt').value);
   if (!addr)             { toast('⚠️ Enter your wallet address'); return; }
-  if (addr.length < 20)  { toast('⚠️ Invalid TRC-20 address'); return; }
+  if (addr.length < 20)  { toast('⚠️ Invalid BEP-20 address'); return; }
   if (!amount || amount < 1) { toast('⚠️ Minimum withdrawal: 1 USDT'); return; }
   const ptsNeeded = Math.round(amount * USDT_RATE);
   if (ptsNeeded > STATE.points) { toast('⚠️ Need ' + ptsNeeded + ' pts, you have ' + STATE.points); return; }
@@ -874,7 +874,7 @@ const CLICK_LINKS = [
     url: 'https://omg10.com/4/11208381',
     title: 'Special Offer — Earn 20 Points',
     desc: 'Visit the link and stay for 10 seconds, then return here to claim your reward!',
-    pts: 20,
+    pts: 5,
     cooldown: 86400000  // 24 hours in ms
   }
 ];
@@ -997,13 +997,13 @@ function claimLinkReward() {
     const status = document.getElementById('cl-status-' + id);
     if (btn) {
       btn.classList.add('visited');
-      btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="10 6 9 17 4 12"/></svg> Claimed!';
+      btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Claimed!';
       btn.disabled = true;
       btn.classList.add('disabled');
     }
     if (status) {
       status.className = 'cl-status done';
-      status.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="10 6 9 17 4 12"/></svg> Claimed today — resets in 24h';
+      status.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Claimed today — resets in 24h';
     }
   }
 }
