@@ -997,13 +997,13 @@ function claimLinkReward() {
     const status = document.getElementById('cl-status-' + id);
     if (btn) {
       btn.classList.add('visited');
-      btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Claimed!';
+      btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="10 6 9 17 4 12"/></svg> Claimed!';
       btn.disabled = true;
       btn.classList.add('disabled');
     }
     if (status) {
       status.className = 'cl-status done';
-      status.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Claimed today — resets in 24h';
+      status.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="10 6 9 17 4 12"/></svg> Claimed today — resets in 24h';
     }
   }
 }
