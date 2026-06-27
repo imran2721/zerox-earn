@@ -1,0 +1,2 @@
+# zerox-earn
+telegram bot
